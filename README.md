@@ -11,6 +11,7 @@ To run this bot you need some libraries installed.
 Next you need telegram api generated from BOT FATHER.
 Now we need a config.json. We will mention bot api, some valid users who can access our bot and our own chat id in it.
 config.json should be like this.
+
 {
    "valid_users": [
        "user_1's chat_id",
