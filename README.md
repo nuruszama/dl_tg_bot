@@ -13,12 +13,13 @@ Now we need a config.json. We will mention bot api, some valid users who can acc
 config.json should be like this.
 
 {
-   "valid_users": [
-       "user_1's chat_id",
-       "user_2's chat_id"
-   ],
-   "bot_token": "replace with token from BOT FATHER",
-   "owner_chat_id": "your chat_id"
+"valid_users":
+[
+"user_1's chat_id",
+"user_2's chat_id"
+],
+"bot_token": "replace with token from BOT FATHER",
+"owner_chat_id": "your chat_id"
 }
 
 All set to run the training. I have some message data written in intents.json. Now you have to run training.py which will learn intents.json and  create words.pkl, classes.pkl and chatbot_model.h5 which we need to run chat with bot. As we give more data to intents.json, accuracy of bot increases.
