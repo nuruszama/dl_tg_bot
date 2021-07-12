@@ -1,0 +1,8 @@
+{
+   "valid_users": [
+       "user_1's chat_id",
+       "user_2's chat_id"
+   ],
+   "bot_token": "replace with token from BOT FATHER",
+   "owner_chat_id": "your chat_id"
+}
